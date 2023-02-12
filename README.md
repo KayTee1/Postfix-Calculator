@@ -1,4 +1,4 @@
-# Simple-Postfix-Calculator
+# Postfix-Calculator
 
 Postfix Calculator
 
