@@ -30,5 +30,5 @@ For example:
 
 The app also provides flexibility in the order of entering the options.
 
-For example with the option 's', the used as "s 1 2 3" or even "1 s 2 3".
+For example with the option 's' can used as "s 1 2 3" or even "1 s 2 3".
 This makes the app more user-friendly and accommodates different input styles.
