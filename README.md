@@ -8,7 +8,7 @@ Build with g++ main.cpp -o main
 
 # Features
 
-- Evaluate mathematical expressions in postfix notation.
+- Evaluate mathematical expressions in postfix or infix notation.
 - Option to swap the places of two numbers in the stack.
 - Option to sum all the elements in the stack.
 - Option to find the average of all the elements in the stack.
