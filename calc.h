@@ -6,7 +6,7 @@ class Calc {
 public:
     Calc();
 
-    void optionSA(Stack &numbers, char option);
+    void options(Stack &numbers, char option);
     void optionX(Stack &numbers);
 
     double calculate(double num1, double num2, char operation);

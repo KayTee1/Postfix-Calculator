@@ -6,12 +6,16 @@
 using namespace std;
 
 double handleExpression(string expression){
+    //Calc class
+    Calc calc;
+
     //initializing stacks for numbers and operations
     Stack numbers;
     Stack operations;
-    Calc calc;
 
-    bool optionSA{false};
+
+    //boolean to check if a special option is used
+    bool options{false};
 
     //finding digits or '.' in expression
     for (int i = 0; i < expression.length(); i++) {
@@ -39,9 +43,9 @@ double handleExpression(string expression){
             if(expression[i] == 'x'){
                 calc.optionX(numbers);
             }
-            else if(expression[i] == 's' ||expression[i] == 'a'){
-                optionSA = true;
-                calc.optionSA(numbers, expression[i]);
+            else if(expression[i] == 's' || expression[i] == 'a'){
+                options = true;
+                calc.options(numbers, expression[i]);
             }
             else{
                 while (!operations.empty()) {
@@ -54,8 +58,8 @@ double handleExpression(string expression){
         }
     }
 
-    //final answer is calculated in the optionSA function already
-    if(optionSA != true){
+    //final answer is calculated in the options function already
+    if(options != true){
         while (!operations.empty()) {
             //calculating remaining operations from stack
             calc.calculateFromStack(numbers, operations);
