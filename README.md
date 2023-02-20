@@ -4,7 +4,7 @@ Postfix Calculator
 
 This is a postfix calculator application that evaluates mathematical expressions in postfix notation.
 
-Build with g++ main.cpp -o main
+Build with g++ -o main *.cpp
 
 # Features
 

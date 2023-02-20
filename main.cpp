@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "stack.cpp"
-#include "calc.cpp"
+#include "stack.h"
+#include "calc.h"
 
 using namespace std;
 
