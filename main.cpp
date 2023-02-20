@@ -2,7 +2,6 @@
 #include <string>
 #include "stack.h"
 #include "calc.h"
-
 using namespace std;
 
 double handleExpression(string expression){

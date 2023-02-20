@@ -1,2 +1,5 @@
 #executeables
 *.exe
+
+#vscode
+.vscode
